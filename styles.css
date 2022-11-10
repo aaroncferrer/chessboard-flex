@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bfc2c2;;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px -0px -30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.board {
+    border: 4px solid black;
+    background-image: url('https://thetangerinebowl.com/wp-content/uploads/2014/08/light-wood-BK1.png');
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.75);
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-image: url('https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood-background-1.jpg');
+}
+
+.piece {
+    font-size: 35px;
+    transition: 0.2s;
+    display: flex;
+}
+
+.piece:hover{
+    transform: scale(1.2);
+}
+
+#footer {
+    background-color: #0e0e1b;
+}
+
+#footer-text{
+    text-align: center;
+    color: white;
+    padding: 5px 0 5px;
+}
